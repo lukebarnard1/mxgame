@@ -1,0 +1,5 @@
+
+client:
+  baseUrl: http://localhost:8008
+  accessToken: QGV4YW1wbGU6bG9jYWxob3N0.qPEvLuYfNBjxikiCjP
+  userId: @example:localhost

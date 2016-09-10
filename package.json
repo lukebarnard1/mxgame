@@ -1,0 +1,11 @@
+{
+  "name": "prosey",
+  "version": "1.0.0",
+  "description": "Matrix bot that will learn and reply with text that it has understood.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -4,7 +4,7 @@
 So far I've made a very simple underlying library to build distributed state-based games (see MXGame.js) and a single example under examples/dungeon_escape.
 
 ## Dungeon Escape example
-Run `node examples/dungeon_escape/main.js` to start the game. This will use config.yaml which should be at the top level of your copy of this repo (`cp config.sample.yaml config.yaml`). Join the game by running the example client: `node examples/dungeon_escape/client.js`. The following commands are possible:
+Run `node examples/dungeon_escape/main.js` to start the game. This will use config.yaml which should be at the top level of your copy of this repo (`cp config.sample.yaml config.yaml`). Join the game by running the example client: `node examples/dungeon_escape/client.js creds.txt '!somematrixroom1234:matrix.org'`. `creds.txt` will be where your login access token is remembered for future quick login (delete the file to re-login). The following commands are possible:
  - move [up|down|left|right]
  - pickup 
  - attack
